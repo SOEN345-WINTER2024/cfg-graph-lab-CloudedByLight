@@ -1,3 +1,106 @@
+# LAB SUBMISSION SECTION
+
+Step 1: _see draw.io file:_ ![lab-7 drawio](https://github.com/SOEN345-WINTER2024/cfg-graph-lab-CloudedByLight/assets/91339234/09b02c12-89da-4ee3-ab41-baf8d1a5b538)
+
+Step 2:
+
+- TR: Test paths must cover all nodes.
+- Test Paths:
+
+  [1, 2, 21],
+  [1, 3, 21],
+  [1, 4, 21],
+  [1, 5, 21],
+  [1, 6, 21],
+  [1, 7, 21],
+  [1, 8, 21],
+  [1, 9, 21],
+  [1, 10, 21],
+  [1, 11, 21],
+  [1, 12, 21],
+  [1, 13, 21],
+  [1, 14, 21],
+  [1, 15, 21],
+  [1, 16, 17, 21],
+  [1, 16, 18, 21],
+  [1, 16, 19, 21],
+  [1, 16, 20, 21]
+  
+
+Step 3:
+
+- TR: Test paths must cover all edges.
+- Test Paths:
+
+  [1, 2, 21],
+  [1, 3, 21],
+  [1, 4, 21],
+  [1, 5, 21],
+  [1, 6, 21],
+  [1, 7, 21],
+  [1, 8, 21],
+  [1, 9, 21],
+  [1, 10, 21],
+  [1, 11, 21],
+  [1, 12, 21],
+  [1, 13, 21],
+  [1, 14, 21],
+  [1, 15, 21],
+  [1, 16, 17, 21],
+  [1, 16, 18, 21],
+  [1, 16, 19, 21],
+  [1, 16, 20, 21]
+
+Step 4:
+
+- TR: All pairs of edges must be covered:
+{
+  [1, 2, 21],
+  [1, 3, 21],
+  [1, 4, 21],
+  [1, 5, 21],
+  [1, 6, 21],
+  [1, 7, 21],
+  [1, 8, 21],
+  [1, 9, 21],
+  [1, 10, 21],
+  [1, 11, 21],
+  [1, 12, 21],
+  [1, 13, 21],
+  [1, 14, 21],
+  [1, 15, 21],
+  [1, 16, 17],
+  [16, 17, 21],
+  [1, 16, 18],
+  [16, 18, 21],
+  [1, 16, 19],
+  [16, 19, 21],
+  [1, 16, 20],
+  [16, 20, 21]
+}
+- Test Paths:
+
+  [1, 2, 21],
+  [1, 3, 21],
+  [1, 4, 21],
+  [1, 5, 21],
+  [1, 6, 21],
+  [1, 7, 21],
+  [1, 8, 21],
+  [1, 9, 21],
+  [1, 10, 21],
+  [1, 11, 21],
+  [1, 12, 21],
+  [1, 13, 21],
+  [1, 14, 21],
+  [1, 15, 21],
+  [1, 16, 17, 21],
+  [1, 16, 18, 21],
+  [1, 16, 19, 21],
+  [1, 16, 20, 21]
+
+Step 5: _see draw.io file:_ ![lab-7 drawio](https://github.com/SOEN345-WINTER2024/cfg-graph-lab-CloudedByLight/assets/91339234/09b02c12-89da-4ee3-ab41-baf8d1a5b538)
+
 # Soot Tutorial
 [![Build Status](https://travis-ci.com/noidsirius/SootTutorial.svg?branch=master)](https://travis-ci.com/noidsirius/SootTutorial)
 [![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/noidsirius/SootTutorial)
