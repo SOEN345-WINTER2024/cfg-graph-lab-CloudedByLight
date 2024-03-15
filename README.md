@@ -1,6 +1,8 @@
 # LAB SUBMISSION SECTION
 
-Step 1: _see draw.io file:_ ![lab-7 drawio](https://github.com/SOEN345-WINTER2024/cfg-graph-lab-CloudedByLight/assets/91339234/09b02c12-89da-4ee3-ab41-baf8d1a5b538)
+## Calculator App steps 1-5
+
+Step 1 and 5: _see draw.io file:_ ![lab-7 drawio](https://github.com/SOEN345-WINTER2024/cfg-graph-lab-CloudedByLight/assets/91339234/09b02c12-89da-4ee3-ab41-baf8d1a5b538)
 
 Step 2:
 
@@ -99,7 +101,42 @@ Step 4:
   [1, 16, 19, 21],
   [1, 16, 20, 21]
 
-Step 5: _see draw.io file:_ ![lab-7 drawio](https://github.com/SOEN345-WINTER2024/cfg-graph-lab-CloudedByLight/assets/91339234/09b02c12-89da-4ee3-ab41-baf8d1a5b538)
+## My Project App ShakeAlarmClock steps 1-5
+
+Method tested:
+
+![image](https://github.com/SOEN345-WINTER2024/cfg-graph-lab-CloudedByLight/assets/91339234/13682bfc-c392-4277-8a47-1658d1a8f503)
+
+Step 1: _see draw.io file:_
+
+![CFG drawio](https://github.com/SOEN345-WINTER2024/cfg-graph-lab-CloudedByLight/assets/91339234/033fd917-689b-4aff-ab86-6067a5216178)
+
+Step 2:
+
+TR: Test paths must cover all nodes.
+
+Test Paths:
+
+[1, 2, 8], [1, 3, 8], [1, 4, 8], [1, 5, 6, 8], [1, 5, 7, 8]
+
+Step 3:
+
+TR: Test paths must cover all edges.
+
+Test Paths:
+
+[1, 2, 8], [1, 3, 8], [1, 4, 8], [1, 5, 6, 8], [1, 5, 7, 8]
+
+Step 4:
+
+TR: All pairs of edges must be covered: { [1, 2, 8], [1, 3, 8], [1, 4, 8], [1, 5, 6], [5, 6, 8], [1, 5, 7], [5, 7, 8] }
+
+Test Paths:
+
+[1, 2, 8], [1, 3, 8], [1, 4, 8], [1, 5, 6, 8], [1, 5, 7, 8]
+
+
+## The rest of the readme, initialized  by default when accepting the assignment:
 
 # Soot Tutorial
 [![Build Status](https://travis-ci.com/noidsirius/SootTutorial.svg?branch=master)](https://travis-ci.com/noidsirius/SootTutorial)
